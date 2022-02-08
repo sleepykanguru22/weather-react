@@ -1,6 +1,7 @@
+import React from "react";
 import "./styles.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="weather-app-wrapper">
@@ -58,8 +59,12 @@ function App() {
           <div className="weather-forecast" id="forecast"></div>
         </div>
       </div>
+      <footer>
+        <a href="https://github.com/sleepykanguru22/weather-react">
+          Open source project
+        </a>
+        by Jasmin Carter
+      </footer>
     </div>
   );
 }
-
-export default App;
